@@ -1,9 +1,0 @@
-CMake Error at /Users/macbookair/esp-idf/tools/cmake/build.cmake:268 (message):
-  Failed to resolve component 'lvgl'.
-Call Stack (most recent call first):
-  /Users/macbookair/esp-idf/tools/cmake/build.cmake:304 (__build_resolve_and_add_req)
-  /Users/macbookair/esp-idf/tools/cmake/build.cmake:599 (__build_expand_requirements)
-  /Users/macbookair/esp-idf/tools/cmake/project.cmake:605 (idf_build_process)
-  CMakeLists.txt:8 (project)
-
-

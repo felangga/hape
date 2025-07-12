@@ -1,7 +1,0 @@
-esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/others/test/lv_test_display.c.obj: \
- /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/others/test/lv_test_display.c \
- /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/others/test/lv_test_display.h \
- /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/others/test/../../lv_conf_internal.h \
- /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/others/test/../../lv_conf_kconfig.h \
- /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/build/config/sdkconfig.h \
- /Users/macbookair/esp-idf/components/esp_common/include/esp_attr.h
