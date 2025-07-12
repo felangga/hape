@@ -1,0 +1,33 @@
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.obj: \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/lv_area_private.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/lv_area.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/../lv_conf_internal.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/../lv_conf_kconfig.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/build/config/sdkconfig.h \
+ /Users/macbookair/esp-idf/components/esp_common/include/esp_attr.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/lv_types.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/machine/_default_types.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/features.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/_newlib_version.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_intsup.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/inttypes.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/newlib.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/config.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/machine/ieeefp.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/_ansi.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_locale.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/limits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/cdefs.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/syslimits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdarg.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../misc/lv_math.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/lv_draw_vg_lite.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/draw/vg_lite/../../lv_conf_internal.h

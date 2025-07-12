@@ -1,0 +1,20 @@
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void app_main()':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:25:39: error: invalid conversion from 'void (*)(lv_display_t*, const lv_area_t*, lv_color_t*)' {aka 'void (*)(_lv_display_t*, const lv_area_t*, lv_color_t*)'} to 'lv_display_flush_cb_t' {aka 'void (*)(_lv_display_t*, const lv_area_t*, unsigned char*)'} [-fpermissive]
+   25 |         lv_display_set_flush_cb(disp, display_flush);
+      |                                       ^~~~~~~~~~~~~
+      |                                       |
+      |                                       void (*)(lv_display_t*, const lv_area_t*, lv_color_t*) {aka void (*)(_lv_display_t*, const lv_area_t*, lv_color_t*)}
+In file included from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/core/lv_obj_tree.h:18,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/core/lv_obj.h:24,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/lvgl.h:43,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:9:
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/core/../display/lv_display.h:314:73: note:   initializing argument 2 of 'void lv_display_set_flush_cb(lv_display_t*, lv_display_flush_cb_t)'
+  314 | void lv_display_set_flush_cb(lv_display_t * disp, lv_display_flush_cb_t flush_cb);
+      |                                                   ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void display_flush(lv_display_t*, const lv_area_t*, lv_color_t*)':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:74:42: error: 'struct lv_color_t' has no member named 'full'
+   74 |     lcd.pushColors((uint16_t *)&color_p->full, w * h, true);
+      |                                          ^~~~
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

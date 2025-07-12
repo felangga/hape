@@ -1,0 +1,35 @@
+CMake Deprecation Warning at /Users/macbookair/esp-idf/components/mbedtls/mbedtls/CMakeLists.txt:21 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void app_main()':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:69:5: warning: missing initializer for member 'esp_timer_create_args_t::arg' [-Wmissing-field-initializers]
+   69 |     };
+      |     ^
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:69:5: warning: missing initializer for member 'esp_timer_create_args_t::dispatch_method' [-Wmissing-field-initializers]
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:69:5: warning: missing initializer for member 'esp_timer_create_args_t::skip_unhandled_events' [-Wmissing-field-initializers]
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void create_friend_list_screen()':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:105:46: error: 'lv_font_montserrat_18' was not declared in this scope; did you mean 'lv_font_montserrat_14'?
+  105 |     lv_obj_set_style_text_font(title_label, &lv_font_montserrat_18, 0);
+      |                                              ^~~~~~~~~~~~~~~~~~~~~
+      |                                              lv_font_montserrat_14
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:131:49: error: 'lv_font_montserrat_16' was not declared in this scope; did you mean 'lv_font_montserrat_14'?
+  131 |         lv_obj_set_style_text_font(name_label, &lv_font_montserrat_16, 0);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~
+      |                                                 lv_font_montserrat_14
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:138:48: error: 'lv_font_montserrat_12' was not declared in this scope; did you mean 'lv_font_montserrat_14'?
+  138 |         lv_obj_set_style_text_font(msg_label, &lv_font_montserrat_12, 0);
+      |                                                ^~~~~~~~~~~~~~~~~~~~~
+      |                                                lv_font_montserrat_14
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:145:49: error: 'lv_font_montserrat_10' was not declared in this scope; did you mean 'lv_font_montserrat_14'?
+  145 |         lv_obj_set_style_text_font(time_label, &lv_font_montserrat_10, 0);
+      |                                                 ^~~~~~~~~~~~~~~~~~~~~
+      |                                                 lv_font_montserrat_14
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/main.cpp.obj] Error 1
+make[1]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [all] Error 2

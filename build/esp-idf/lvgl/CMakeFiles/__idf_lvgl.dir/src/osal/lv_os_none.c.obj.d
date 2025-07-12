@@ -1,0 +1,37 @@
+esp-idf/lvgl/CMakeFiles/__idf_lvgl.dir/src/osal/lv_os_none.c.obj: \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/lv_os_none.c \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../lv_conf_internal.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../lv_conf_kconfig.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/build/config/sdkconfig.h \
+ /Users/macbookair/esp-idf/components/esp_common/include/esp_attr.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/lv_os.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/lv_types.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/../lv_conf_internal.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/machine/_default_types.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/features.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/_newlib_version.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_intsup.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_stdint.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stddef.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdbool.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/inttypes.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/newlib.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/config.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/machine/ieeefp.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/_ansi.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/_locale.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/limits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/syslimits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/limits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/cdefs.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/xtensa-esp-elf/sys-include/sys/syslimits.h \
+ /Users/macbookair/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/13.2.0/include/stdarg.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/lv_os_none.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/lv_timer.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/../tick/lv_tick.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/../tick/../lv_conf_internal.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/../tick/../misc/lv_types.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/lv_types.h \
+ /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/lvgl/src/osal/../misc/lv_ll.h

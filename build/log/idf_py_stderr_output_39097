@@ -1,0 +1,11 @@
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void display_flush(lv_display_t*, const lv_area_t*, uint8_t*)':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:74:19: warning: 'void lgfx::v1::LGFXBase::pushColors(const uint16_t*, int32_t, bool)' is deprecated: use pushPixels [-Wdeprecated-declarations]
+   74 |     lcd.pushColors((uint16_t *)color_p, w * h, true);
+      |     ~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/LovyanGFX/src/lgfx/v1_init.hpp:25,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/LovyanGFX/src/LovyanGFX.hpp:25,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/LovyanGFX/src/LovyanGFX.h:5,
+                 from /Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:8:
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/components/LovyanGFX/src/lgfx/v1/LGFXBase.hpp:994:43: note: declared here
+  994 |     [[deprecated("use pushPixels")]] void pushColors(const uint16_t* data, int32_t len, bool swap) { startWrite(); writePixels(data, len, swap); endWrite(); }
+      |                                           ^~~~~~~~~~

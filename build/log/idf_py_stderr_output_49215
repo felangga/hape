@@ -1,0 +1,6 @@
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp: In function 'void app_main()':
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:35:5: warning: missing initializer for member 'esp_timer_create_args_t::arg' [-Wmissing-field-initializers]
+   35 |     };
+      |     ^
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:35:5: warning: missing initializer for member 'esp_timer_create_args_t::dispatch_method' [-Wmissing-field-initializers]
+/Users/macbookair/Documents/projects/ESP32-3248S035-LVGL-v8/main/main.cpp:35:5: warning: missing initializer for member 'esp_timer_create_args_t::skip_unhandled_events' [-Wmissing-field-initializers]
