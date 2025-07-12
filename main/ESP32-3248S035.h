@@ -1,6 +1,10 @@
+#pragma once
+
 /*
 Configure LovyanGFX driver or some LVGL parameters for ESP32-3248S035 device.
  */
+
+#ifdef __cplusplus
 
 class LGFX : public lgfx::LGFX_Device
 {
@@ -192,12 +196,24 @@ public:
     }
 };
 
-// Screen configuration
-static constexpr uint16_t screenWidth = 320;
-static constexpr uint16_t screenHeight = 480;
-static lv_color_t buf[screenWidth * 20]; // Increased buffer size for better performance
+#endif // __cplusplus
+
+// Screen configuration (C-compatible)
+#define SCREEN_WIDTH 320
+#define SCREEN_HEIGHT 480
+
+#ifdef __cplusplus
+// C++ constants
+static constexpr uint16_t screenWidth = SCREEN_WIDTH;
+static constexpr uint16_t screenHeight = SCREEN_HEIGHT;
+static lv_color_t buf[screenWidth * 20] __attribute__((unused)); // Increased buffer size for better performance
+#else
+// C constants
+#define screenWidth SCREEN_WIDTH
+#define screenHeight SCREEN_HEIGHT
+static lv_color_t buf[SCREEN_WIDTH * 20] __attribute__((unused)); // Increased buffer size for better performance
+#endif
 
 // Function declarations
 void display_flush(lv_display_t *disp, const lv_area_t *area, uint8_t *color_p);
 void touchpad_read(lv_indev_t *indev, lv_indev_data_t *data);
-static void lv_tick_task(void *arg);

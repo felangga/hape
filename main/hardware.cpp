@@ -33,7 +33,10 @@ void lvgl_init(void)
     // Start LVGL tick timer (1ms intervals)
     const esp_timer_create_args_t timer_args = {
         .callback = lv_tick_task,
-        .name = "lvgl_tick"
+        .arg = nullptr,
+        .dispatch_method = ESP_TIMER_TASK,
+        .name = "lvgl_tick",
+        .skip_unhandled_events = false
     };
     esp_timer_handle_t timer;
     ESP_ERROR_CHECK(esp_timer_create(&timer_args, &timer));

@@ -22,5 +22,13 @@ extern friend_t friends[];
 extern const int friends_count;
 
 // Common UI functions
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 void ui_init(void);
 void ui_task(void *pvParameter);
+
+#ifdef __cplusplus
+}
+#endif
